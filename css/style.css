@@ -15,6 +15,11 @@ h1{
   font-weight: 700;
   color: #333;
 }
+h3{
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0 0 5px;
+}
 p{
   line-height: 1.2;
   margin: 0;
@@ -26,11 +31,7 @@ ul{
   padding-left: 0;
 }
 
-.bold{
-  font-size: 17px;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
+
 .wrapper{
   max-width: 630px;
   margin: 0 auto;
