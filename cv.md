@@ -21,6 +21,7 @@ Now I'm actively looking for a job as a frontend developer and studying at RS Sc
 - Git, BEM, Gulp, SCSS
 - Figma, Photoshop
 - VS Code, Emmett
+
 ---
 ### Code example
 Kata "Highest and Lowest" from Codewars:
@@ -34,6 +35,7 @@ function highAndLow(numbers){
   return newStr
 }
 ```
+
 ---
 ### Experience / Pet-projects
 - Catalog of games [«BestGames»](https://github.com/OlgaSS/bestGames). Tech stack: HTML, SCSS, JS.
@@ -44,6 +46,7 @@ function highAndLow(numbers){
 - Result School Marathon «5 days - 5 JavaScript projects»
 - Intensive: app for memorizing words «Brain Cards» at Online School METHED
 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
 ---
 ### Languages
 - Russian - Native
