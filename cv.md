@@ -37,7 +37,7 @@ function highAndLow(numbers){
 ---
 ### Experience / Pet-projects
 - Catalog of games [«BestGames»](https://github.com/OlgaSS/bestGames). Tech stack: HTML, SCSS, JS.
-- Game in JavaScript [«Collect circles»](https://olgass.github.io/game/). Tech stack: HTML, CSS, JS.
+- Game in JavaScript [«Collect circles»](https://github.com/OlgaSS/js-game). Tech stack: HTML, CSS, JS.
 
 ---
 ### Courses
