@@ -4,10 +4,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body></body>
+<body>
+    <div class="cv">
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__info">
+                    <div class="header__photo">
+                        <img src="img/photo.jpg" alt="Photo of me">
+                    </div>
+                    <h1 class="header__title">
+                        Olga<br>Shkurina
+                        <span>Junior Frontend Developer</span>
+                    </h1>
+                </div>
+                <div class="header__contacts">
+                    <ul class="header__list headerList">
+                        <li class="headerList__item">
+                            <span class="headerList__title">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-mail">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                                E-mail
+                            </span>
+                            <a href="mailto:olga.lole96@gmail.com">olga.lole96@gmail.com</a>
+                        </li>
+                        <li class="headerList__item">
+                            <span class="headerList__title">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-phone">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                    </path>
+                                </svg>
+                                Phone
+                            </span>
+                            <a href="tel:3752928890-2">+375 29 288-90-32</a>
+                        </li>
+                        <li class="headerList__item">
+                            <span class="headerList__title">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-github">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                GitHub
+                            </span>
+                            <a href="https://github.com/OlgaSS">OlgaSS</a>
+                        </li>
+                        <li class="headerList__item">
+                            <span class="headerList__title">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                Location
+                            </span>
+                            Minsk, Belarus
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <main>
+                <section class="aboutMe" id="aboutMe">
+                    <div class="aboutMe__info aboutMe-info infoBlock">
+                        <h2 class="aboutMe-info__title title">About me</h2>
+                        <div class="aboutMe-info__text">
+                            <p>I have been coding for over a year now. I have a passion for frontend
+                                development because I can immediately see the result of my work, combine programming
+                                with
+                                creativity, experiment and create cool things.</p>
+                            <p> Now I’m actively looking for a job as a frontend developer and
+                                studying at RS School to improve my knowledge.</p>
+                        </div>
+                    </div>
+                    <div class="aboutMe__skills aboutMe-skills infoBlock">
+                        <h2 class="aboutMe-skills__title title">Skills</h2>
+                        <ul class="aboutMe-skills__list">
+                            <li class="aboutMe-skills__item"><b>HTML</b> (Forms, Semantic, SEO)</li>
+                            <li class="aboutMe-skills__item"><b>CSS</b> (RWD, Flexbox, Grid, Position, Animation)</li>
+                            <li class="aboutMe-skills__item"><b>JS</b> (DOM, JSON, API, Modules)</li>
+                            <li class="aboutMe-skills__item"><b>React</b> basics</li>
+                            <li class="aboutMe-skills__item"><b>TypeScript</b> basics</li>
+                            <li class="aboutMe-skills__item">Git, BEM, Gulp, SCSS</li>
+                            <li class="aboutMe-skills__item">Figma, Photoshop</li>
+                            <li class="aboutMe-skills__item">VS Code, Emmett</li>
+                            <li class="aboutMe-skills__item"><b>Languages:</b> Russian(Native), English(B2)</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="code infoBlock">
+                    <h2 class="code__title title">Code example</h2>
+                    <p class="code__text">
+                        <b>Kata “Highest and Lowest” from Codewars:</b><br>
+                        In this little assignment you are given a string of
+                        space separated numbers, and have to return the highest and lowest number.
+                        Examples: highAndLow(“1 2 3 4 5”); // return “5 1”
+                    </p>
+
+                    <code>
+                        function highAndLow(numbers){<br>
+                            let arr = numbers.split(' ');
+                            let newStr = `${Math.max.apply(null, arr)} ` + 
+                            `${Math.min.apply(null, arr)}`;
+                            return newStr<br>
+                          }
+                    </code>
+
+                </section>
+                <section class="experience" id="experience">
+                    <div class="experience__projects experience-projects infoBlock">
+                        <h2 class="experience-projects__title title">Experience</h2>
+                        <ul class="experience-projects__list">
+                            <li class="experience-projects__item">
+                                <span>
+                                    Pet-project: Catalog of games
+                                    <a href="#">«BestGames»</a>.
+                                </span>
+                                Tech stack: HTML, SCSS, JS.
+                            </li>
+                            <li class="experience-projects__item">
+                                <span>
+                                    Pet-project: Game in JavaScript
+                                    <a href="#"> «Collect circles»</a>.
+                                </span>
+                                Tech stack: HTML, CSS, JS.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="experience__courses experience-courses infoBlock">
+                        <h2 class="experience-courses__title title">Education</h2>
+                        <ul class="experience-courses__list">
+                            <li class="experience-courses__item">
+                                <a href="https://result.school/" target="_blank">Result School</a>
+                                Marathon «5 days - 5 JavaScript projects»
+                            </li>
+                            <li class="experience-courses__item">
+                                <a href="https://methed.ru/" target="_blank">METHED Online School</a>
+                                Intensive: app for memorizing words «Brain Cards»
+                            </li>
+                            <li class="experience-courses__item">
+                                <a href="https://methed.ru/" target="_blank">RS Schools</a>
+                                Course «JavaScript/Front-end. Stage 0» (in progress)
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <nav class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item">
+                            <a href="#aboutMe">About Me</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#experience">My Experience</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a href="https://github.com/OlgaSS" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-github">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="https://rs.school/js/" target="_blank">
+                            <img src="img/rs_school_js.svg" alt="Лготип RS School">
+                        </a>
+                    </li>
+                </ul>
+                <span>© 2023</span>
+            </footer>
+        </div>
+    </div>
+</body>
 
 </html>
